@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /examples/authentication/login.sql # Block access to file with login
+
+Allow: /  # Allow access to all public-facing SQL-generated pages
+
+Sitemap: https://sql.datapage.app/sitemap.xml
